@@ -1,0 +1,26 @@
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities; 
+
+#root {
+  margin: 0 auto;
+}
+.subcomponent-container {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px 16px 0px;
+}
+.subcomponent-data {
+  padding-left: 16px;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+}
+.pagination button {
+  margin: 0px 8px;
+}
+
